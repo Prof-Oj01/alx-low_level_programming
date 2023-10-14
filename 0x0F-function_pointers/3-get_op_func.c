@@ -1,11 +1,11 @@
 #include "3-calc.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 /**
  * get_op_func - function that selects the option to perform arithmetic operation
  * @s: operator argument
+ * i
  * Return: result of the slected choice
  */
 
@@ -25,7 +25,7 @@ int (*get_op_func(char *s))(int, int)
     i = 0;
 
     /* s does not match any of the operands */
-    while (ops[i].op != NULL && (ops[i].op) != s)
+    while (ops[i].op != NULL && *(ops[i].op) != *s)
 	    i++;
 
     return (ops[i].f); /* return operation */
