@@ -2,7 +2,7 @@
 void Come_firstbyOJ(void)__attribute__ ((constructor));
 
 /**
- * Come_first - func that runs before the main func
+ * Come_firstbyOJ - func that runs before the main func
  */
 
 void Come_firstbyOJ(void)
