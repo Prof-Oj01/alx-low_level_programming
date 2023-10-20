@@ -1,6 +1,6 @@
 #include "lists.h"
 int len(const char *str);
-list_t *create_node (const char *str);
+list_t *create_node(const char *str);
 
 /**
  * add_node_end - func that adds node to the end of a list
@@ -38,7 +38,7 @@ list_t *add_node_end(list_t **head, const char *str)
  * @str: string to be inputrd in the newly created node
  * Return: the pointer to the malloc memory
  */
-list_t *create_node (const char *str)
+list_t *create_node(const char *str)
 {
 	list_t *new_node;
 
