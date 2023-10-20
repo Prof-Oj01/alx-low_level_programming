@@ -33,6 +33,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	return (*head);
 }
 
+
 /**
  * create_node: func that declares nodes
  * @str: string to be inputrd in the newly created node
@@ -50,6 +51,7 @@ list_t *create_node(const char *str)
 	new_node->next = NULL;
 	return (new_node);
 }
+
 
 /**
  * len - length of a string
